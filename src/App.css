@@ -76,6 +76,13 @@ header {
 }
 
 .cabecalho > h1{
-margin-left: 40px;
+margin-left: 80px;
 
+}
+
+.caixaPrincipal > input {
+  width: 140px;
+  background-color: #251f1f00;
+  color: white;
+  border-bottom: 1px solid #fe6c90;
 }
