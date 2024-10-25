@@ -1,3 +1,21 @@
+/* 
+#ffffff
+#fe6c90
+#d03791
+#87286a
+#452459
+#260d34   
+*/
+
+@font-face {
+  font-family: "Gotham";
+  src: url("./fonts/GothamBold.ttf");
+}
+header {
+  font-family: "Gotham", sans-serif;
+  color: #fff
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +32,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +53,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.caixaPrincipal {
+  background-color: rgb(36, 31, 37);
+  height: 200px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.cabecalho{
+  background-color: rgb(0, 0, 0);
+  border-bottom: 1px solid #fe6c90;
+  height: 60px;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.cabecalho > h1{
+margin-left: 40px;
+
 }
