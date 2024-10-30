@@ -11,8 +11,8 @@ function App() {
       <header className="App-header">
         <div className="caixaPrincipal">
           <h1>teste</h1>
-          <input>
-          </input>
+          <input></input>
+          <button>curtir</button>
         </div>
       </header>
     </div>

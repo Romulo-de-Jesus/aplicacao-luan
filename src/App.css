@@ -86,3 +86,7 @@ margin-left: 80px;
   color: white;
   border-bottom: 1px solid #fe6c90;
 }
+
+.caixaPrincipal > button {
+  margin: 10px;
+}
