@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+import Logo from './logo.png';
 import './App.css';
+import ComponenteItem from './componente_item';
 
 function App() {
   return (
     <div className="App">
       <header className='cabecalho'>
+      <img className="classLogo" src={Logo} alt="logo da aplicação" />
         <h1> Lorem</h1>
        
       </header>
@@ -14,7 +16,10 @@ function App() {
           <input></input>
           <button>curtir</button>
         </div>
+
+
       </header>
+      <ComponenteItem></ComponenteItem>
     </div>
   );
 }
