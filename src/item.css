@@ -1,10 +1,45 @@
 .caixaItem{
     margin: auto;
+    margin-top: 20px;
     color: #fff;
     background-color: rgb(36, 31, 37);
     height: 100px;
-    width: 350px;
+    width: 400px;
     border-radius: 20px;
-    display: grid;
-    
+    display: flex;
+    justify-items:center;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixaItem > button {
+    width: 70px;
+    height: 40px;
+    margin: 30px;
+    padding: 5px;
+    background-color: black;
+    border: #fe6c90 solid 2px;
+    border-radius: 20px;
+    color:#fff;
+}
+
+.caixaItem > button:hover {
+    width: 70px;
+    height: 40px;
+    margin: 30px;
+    padding: 5px;
+    background-color: black;
+    border: #fff solid 2px;
+    border-radius: 20px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.caixaItem > p{
+padding: 5px;
+width: 150px;
+}
+
+.caixaItem > img{
+padding: 5px;
 }

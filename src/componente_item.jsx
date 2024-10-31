@@ -1,13 +1,22 @@
-import React from "react";
-import "./item.css"
+import React, { useState } from "react";
+import "./item.css";
 
-function ComponenteItem(){
-return (
-<div className="caixaItem">
-   <h1>teste</h1> 
-</div>
+const ComponenteItem = ({ imagem , nome }) =>{
+   const [isVisible, setIsVisible] = useState(true);
 
-)
+   const removeComponent = () => {
+      setIsVisible(false);
+   };
+
+   return (
+      isVisible && (
+         <div className="caixaItem">
+            <img src={imagem} alt="" width="50" />
+            <p>{nome}</p>
+            <button onClick={removeComponent}>excluir</button>
+         </div>
+      )
+   );
 }
 
-export default ComponenteItem
+export default ComponenteItem;

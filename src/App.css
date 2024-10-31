@@ -6,6 +6,9 @@
 #452459
 #260d34   
 */
+html{
+  background-color: #000
+}
 
 @font-face {
   font-family: "Gotham";
@@ -52,10 +55,33 @@ header {
 }
 
 .caixaPrincipal {
+  margin-top: 100px;
   background-color: rgb(36, 31, 37);
-  height: 200px;
-  width: 400px;
+  height: 180px;
+  width: 500px;
   border-radius: 20px;
+}
+form > button{
+  width: 70px;
+  height: 40px;
+  margin-left: 10px;
+  padding: 5px;
+  background-color: black;
+  border: #fe6c90 solid 2px;
+  border-radius: 20px;
+  color:#fff;
+}
+
+form > button:hover{
+  width: 70px;
+  height: 40px;
+  margin-left: 10px;
+  padding: 5px;
+  background-color: black;
+  border: #fff solid 2px;
+  border-radius: 20px;
+  color:#fff;
+  cursor:pointer;
 }
 
 .cabecalho{
@@ -83,6 +109,7 @@ margin-left: 40px;
   border-bottom: 1px solid #fe6c90;
 }
 
+
 .caixaPrincipal > button {
   margin: 10px;
 }
@@ -100,4 +127,8 @@ margin-left: 40px;
   border:#d03791 solid 2px;
   margin: 20px;
   cursor:pointer;
+}
+
+ul{
+  margin-left: -28px;
 }
