@@ -86,3 +86,18 @@ margin-left: 40px;
 .caixaPrincipal > button {
   margin: 10px;
 }
+
+.CaixaMusica {
+  height: 200px;
+  width: 600px;
+  border:#fff solid 2px;
+  margin: 20px
+}
+
+.CaixaMusica:hover {
+  height: 200px;
+  width: 600px;
+  border:#d03791 solid 2px;
+  margin: 20px;
+  cursor:pointer;
+}

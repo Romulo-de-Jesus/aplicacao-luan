@@ -1,0 +1,9 @@
+.CaixaResultados{
+width: 650px;
+height: 1000px;
+margin: auto;
+
+display: flex-start;
+display: flex;
+flex-direction: column; /* Altera o eixo para coluna (vertical) */
+}
