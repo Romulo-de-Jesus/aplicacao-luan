@@ -60,7 +60,7 @@ function App() {
     <div className="App">
       <header className='cabecalho'>
         <img className="classLogo" src={Logo} alt="logo da aplicação" />
-        <h1>SongNest</h1>
+        <h1>Songnest</h1>
       </header>
       <br />
       <header className="App-header">
