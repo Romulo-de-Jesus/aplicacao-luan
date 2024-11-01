@@ -1,7 +1,7 @@
 Projeto lista de músicas
 
 Rômulo de Jesus Fernandes /
-Davi de Sousa Farias /
+Davi Sousa de Farias /
 Daniel Alves Santana /
 Matheus Rodrigues /
 Gabriela /
