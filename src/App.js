@@ -90,6 +90,7 @@ function App() {
                 <img src={track.album.images[0].url} alt={track.name} width="50" />
                 <p>{track.name}</p>
                 <p>{track.artists.map((artist) => artist.name).join(', ')}</p>
+
               </div>
             ))}
           </div>
@@ -97,7 +98,7 @@ function App() {
       </header>
       <ul>
         {selectedTracks.map((track) => (
-          <ComponenteItem key={track.id} nome={track.name} imagem={track.album.images[0].url} /> // Renderiza ComponenteItem para cada música selecionada
+          <ComponenteItem key={track.id} nome={track.name} imagem={track.album.images[0].url} artista={track.artists[0].name} /> // Renderiza ComponenteItem para cada música selecionada
         ))}
       </ul>
     </div>
