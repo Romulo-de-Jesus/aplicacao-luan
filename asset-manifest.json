@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/aplicacao-luan/static/css/main.1f4edd1d.css",
-    "main.js": "/aplicacao-luan/static/js/main.5a2f6d64.js",
+    "main.js": "/aplicacao-luan/static/js/main.aa9fdbb2.js",
     "static/js/453.e4d95c74.chunk.js": "/aplicacao-luan/static/js/453.e4d95c74.chunk.js",
     "static/media/GothamBold.ttf": "/aplicacao-luan/static/media/GothamBold.108854bb27dee2dce854.ttf",
     "static/media/logo.png": "/aplicacao-luan/static/media/logo.6cc11c6de75067428f81.png",
     "index.html": "/aplicacao-luan/index.html",
     "main.1f4edd1d.css.map": "/aplicacao-luan/static/css/main.1f4edd1d.css.map",
-    "main.5a2f6d64.js.map": "/aplicacao-luan/static/js/main.5a2f6d64.js.map",
+    "main.aa9fdbb2.js.map": "/aplicacao-luan/static/js/main.aa9fdbb2.js.map",
     "453.e4d95c74.chunk.js.map": "/aplicacao-luan/static/js/453.e4d95c74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f4edd1d.css",
-    "static/js/main.5a2f6d64.js"
+    "static/js/main.aa9fdbb2.js"
   ]
 }
