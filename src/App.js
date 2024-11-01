@@ -5,7 +5,6 @@ import ComponenteItem from "./componente_item";
 import axios from 'axios';
 function App() {
   <div>
-      <FontAwesomeIcon icon={faMusic} />
     </div>
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
@@ -69,7 +68,7 @@ function App() {
       <header className="App-header">
         <div className="caixaPrincipal">
           <form onSubmit={searchTracks}>
-            <h1>Pesquise a música</h1>
+            <h1>Adicionar uma música à playlist</h1>
             <input
               type="text"
               value={query}
