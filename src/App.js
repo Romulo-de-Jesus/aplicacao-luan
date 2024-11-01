@@ -75,7 +75,7 @@ function App() {
               onChange={(e) => setQuery(e.target.value)}
               placeholder=""
             />
-            <button type="submit">Procurar</button>
+            <button type="submit">Pesquisar</button>
           </form>
         </div>
 
