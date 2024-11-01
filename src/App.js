@@ -3,15 +3,17 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import ComponenteItem from "./componente_item";
 import axios from 'axios';
-
 function App() {
+  <div>
+      <FontAwesomeIcon icon={faMusic} />
+    </div>
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
   const [token, setToken] = useState('');
   const [showResults, setShowResults] = useState(true);
   const [selectedTracks, setSelectedTracks] = useState([]); // Estado para as músicas selecionadas
 
-  // Step 1: Retrieve token
+  // API do Spotify
   const getToken = async () => {
     const client_id = '7f74855524534de2bf3740f12a99811a';
     const client_secret = '5575c24084cc438ab5cf22829968f668';
@@ -30,7 +32,7 @@ function App() {
     setToken(response.data.access_token);
   };
 
-  // Step 2: Search for tracks
+  // Usando a API para procurar Músicas
   const searchTracks = async (e) => {
     e.preventDefault();
 
@@ -42,7 +44,7 @@ function App() {
     );
 
     setResults(response.data.tracks.items);
-    setShowResults(true); // Show results after each search
+    setShowResults(true); // Mostrar resultados
   };
 
   // Initialize token on mount
@@ -57,6 +59,7 @@ function App() {
   };
 
   return (
+    
     <div className="App">
       <header className='cabecalho'>
         <img className="classLogo" src={Logo} alt="logo da aplicação" />
