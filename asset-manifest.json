@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/aplicacao-luan/static/css/main.bad114de.css",
-    "main.js": "/aplicacao-luan/static/js/main.7b9c2ede.js",
+    "main.css": "/aplicacao-luan/static/css/main.81afffe7.css",
+    "main.js": "/aplicacao-luan/static/js/main.613d6e85.js",
     "static/js/453.e4d95c74.chunk.js": "/aplicacao-luan/static/js/453.e4d95c74.chunk.js",
     "static/media/GothamBold.ttf": "/aplicacao-luan/static/media/GothamBold.108854bb27dee2dce854.ttf",
     "static/media/logo.png": "/aplicacao-luan/static/media/logo.6cc11c6de75067428f81.png",
     "index.html": "/aplicacao-luan/index.html",
-    "main.bad114de.css.map": "/aplicacao-luan/static/css/main.bad114de.css.map",
-    "main.7b9c2ede.js.map": "/aplicacao-luan/static/js/main.7b9c2ede.js.map",
+    "main.81afffe7.css.map": "/aplicacao-luan/static/css/main.81afffe7.css.map",
+    "main.613d6e85.js.map": "/aplicacao-luan/static/js/main.613d6e85.js.map",
     "453.e4d95c74.chunk.js.map": "/aplicacao-luan/static/js/453.e4d95c74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bad114de.css",
-    "static/js/main.7b9c2ede.js"
+    "static/css/main.81afffe7.css",
+    "static/js/main.613d6e85.js"
   ]
 }
