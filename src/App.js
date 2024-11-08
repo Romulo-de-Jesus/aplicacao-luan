@@ -68,7 +68,7 @@ function App() {
       <header className="App-header">
         <div className="caixaPrincipal">
           <form onSubmit={searchTracks}>
-            <h1>Adicionar uma música à playlist</h1>
+            <h1>Adicione uma música à playlist</h1>
             <input
               type="text"
               value={query}
