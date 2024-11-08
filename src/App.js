@@ -87,9 +87,11 @@ function App() {
                 className="CaixaMusica"
                 key={track.id}
               >
+                <br></br>
+
                 <img src={track.album.images[0].url} alt={track.name} width="50" />
-                <p>{track.name}</p>
-                <p>{track.artists.map((artist) => artist.name).join(', ')}</p>
+                <p >{track.name}</p>
+                <p >{track.artists.map((artist) => artist.name).join(', ')}</p>
 
               </div>
             ))}

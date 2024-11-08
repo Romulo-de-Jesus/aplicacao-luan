@@ -156,6 +156,7 @@ margin-left: 40px;
   border:#fff solid 2px;
   margin: 20px;
   font-size: 21px;
+
 }
 
 .CaixaMusica:hover {
@@ -165,10 +166,14 @@ margin-left: 40px;
   margin: 20px;
   cursor:pointer;
   font-size: 21px;
+
 }
 }
 
+.limite-characteres {
+  overflow: hidden;
 
+}
 ul{
   margin-left: -28px;
 }
