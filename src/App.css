@@ -59,7 +59,7 @@ header {
     margin-top: 100px;
     margin-bottom: 60px;
     background-color: rgb(36, 31, 37);
-    height: 100px;
+    height: 150px;
     width: 400px;
     padding: 10px;
     border-radius: 20px;
@@ -69,6 +69,7 @@ header {
 @media (min-width:500px) {
 .caixaPrincipal {
   margin-top: 100px;
+  margin-bottom: 100px;
   background-color: rgb(36, 31, 37);
   height: 180px;
   width: 480px;
@@ -125,11 +126,12 @@ margin-left: 40px;
   color: white;
   border-bottom: 1px solid #fe6c90;
   border-radius: 30px;
+  margin: 20px
 }
 
 
 .caixaPrincipal > button {
-  margin: 10px;
+  margin: 20px
 }
 
 .CaixaMusica {
@@ -156,7 +158,7 @@ margin-left: 40px;
   border:#fff solid 2px;
   margin: 20px;
   font-size: 21px;
-
+  overflow: hidden;
 }
 
 .CaixaMusica:hover {
@@ -166,6 +168,7 @@ margin-left: 40px;
   margin: 20px;
   cursor:pointer;
   font-size: 21px;
+  overflow: hidden;
 
 }
 }
